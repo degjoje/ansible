@@ -41,7 +41,7 @@ Solution
     Execute the playbook by running:
 
     ```bash
-    ansible-laybook -i inventory -u *remote_user* site.yml
+    ansible-playbook -i inventory -u *remote_user* site.yml
     ```
 
     where:
